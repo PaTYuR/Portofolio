@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/PaTYuR/Portofolio/issues"
   },
-  "homepage": "https://github.com/PaTYuR/Portofolio#readme"
+  "homepage": "https://github.com/PaTYuR/Portofolio#readme",
+  "dependencies": {
+    "socket.io": "^3.1.1"
+  }
 }
