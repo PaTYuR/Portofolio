@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+        integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<div class="loader_bg">
+    <div class="loader">
+    </div>
+</div>
+
+<body class="blue lighten-5">
+
+
+
+    <div class="container">
+        <!-- Navbar goes here -->
+        <nav class="show-on-medium-and-down hide-on-med-and-up transparent top-nav">
+            <div class="nav-wrapper ">
+                <a href="#!" class="brand-logo right"><img src="img/logo.png" width="40px" alt="logo"></a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            </div>
+        </nav>
+
+
+        <ul class="sidenav " id="mobile-demo">
+            <li class="bold"><a href="#home" class="waves-effect waves-teal hoverable white-text" id="home1">HOME</a>
+            </li>
+            <li class="bold"><a href="#about" class="waves-effect waves-teal hoverable white-text">ABOUT</a>
+            </li>
+            <li class="bold"><a href="#skill" class="waves-effect waves-teal hoverable white-text">SKILL</a>
+            </li>
+            <li class="bold"><a href="#resume" class="waves-effect waves-teal hoverable white-text">RESUME</a>
+            </li>
+            <li class="bold"><a href="#contact-me" class="waves-effect waves-teal hoverable white-text">CONTACT
+                    ME</a></li>
+        </ul>
+
+        <!-- Page Layout here -->
+        <div class="row">
+            <div class="col s3 hide-on-med-and-down">
+                <!-- Grey navigation panel -->
+                <ul id="nav-mobile" class="sidenav sidenav-fixed section table-of-contents hide-on-med-and-down"
+                    style="transform: translateX(0%);">
+                    <div id=side-nav>
+                        <li class="bold"><a href="#home" class="waves-effect waves-light hoverable white-text">HOME</a>
+                        </li>
+                        <li class="bold"><a href="#about"
+                                class="waves-effect waves-light hoverable white-text">ABOUT</a>
+                        </li>
+                        <li class="bold"><a href="#skill"
+                                class="waves-effect waves-light hoverable white-text">SKILL</a>
+                        </li>
+                        <li class="bold"><a href="#resume"
+                                class="waves-effect waves-light hoverable white-text">RESUME</a>
+                        </li>
+                        <li class="bold"><a href="#contact-me"
+                                class="waves-effect waves-light hoverable white-text">CONTACT
+                                ME</a></li>
+                    </div>
+                </ul>
+            </div>
+
+            <div class="col s12 m9 center">
+                <!-- Teal page content  -->
+                <div class="row">
+                    <div id="home" class="section scrollspy ">
+                        <img src="img/me.jpg" class="circle image-header" width="250px" alt="me">
+                        <h4>Ivan Fatur Rohman</h4>
+                        <p> Web Developer</p>
+                        <div id="social-media" class="row">
+                            <a href="https://www.facebook.com/ivanfr04/"><i class="fab fa-facebook-square"></i></a>
+                            <a href="https://www.instagram.com/ivnftrrhmn/"><i class="fab fa-instagram-square"></i></a>
+                            <a
+                                href="https://id.linkedin.com/public-profile/in/ivan-fatur-rohman-965456140?challengeId=AQG_g4bC1nlJNgAAAXemg5VCWBsooWPaZ3vTKZAve4x02fqCnU-a1AMiY4JdW5s39vVOA98iP5lMxwqmboKrXw9jOJptZVcy1g&submissionId=5ef98d38-8df8-6316-b90e-af45058c170b"><i
+                                    class="fab fa-linkedin"></i></a>
+                        </div>
+                        <a href="https://drive.google.com/file/d/107HxIchJjwtildN409_ieQPlGbEHAk4U/view?usp=sharing"
+                            class="btn waves-effect blue darken-3 btn-large pulse download">Download Resume</a>
+                    </div>
+
+                    <div id="about" class="section scrollspy">
+                        <p>My intro</p>
+                        <h4>About Me</h4>
+                        <div class="row">
+                            <div class="col s12 m6">
+                                <p>Hi, I am a web developer, the world of information technology is one of the things I
+                                    like
+                                    and I have a lot of experience in various fields of work.
+                                </p>
+                                <div class="col s6 offset-s3">
+                                    <div class="card">
+                                        <div class="card-image">
+                                            <img src="img/me1.jpg">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col s12 m6 left-align">
+                                <h5 class="center">- Information -</h5>
+                                <div class="row information">
+                                    <div class="col s1">
+                                        <i class="far fa-user"></i>
+                                    </div>
+                                    <div class="col s8">
+                                        <p class="information">Ivan Fatur Rohman</p>
+                                    </div>
+                                </div>
+                                <div class="row information">
+                                    <div class="col s1">
+                                        <i class="fas fa-phone-alt"></i>
+                                    </div>
+                                    <div class="col s7">
+                                        <p class="information">081297999511</p>
+                                    </div>
+                                </div>
+                                <div class="row information">
+                                    <div class="col s1">
+                                        <i class="far fa-envelope"></i>
+                                    </div>
+                                    <div class="col s7">
+                                        <p class="information">ivanfaturrohman04@gmail.com</p>
+                                    </div>
+                                </div>
+                                <h5 class="center">- Experience and support -</h5>
+                                <div class="row information">
+                                    <div class="col s1">
+                                        <i class="fas fa-medal"></i>
+                                    </div>
+                                    <div class="col s9">
+                                        <p class="information">3 Years Job Experience</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="skill" class="section scrollspy">
+                        <p>Why Choose Me</p>
+                        <h4>My expertise Area</h4>
+                        <div class="row">
+                            <div class="col s12">
+                                <div class="card white">
+                                    <div class="card-content white-text">
+                                        <div class="row">
+                                            <div class="col s12 m6 left-align">
+                                                <h5 class="resumee">HTML</h5>
+                                                <div class="progress">
+                                                    <div class="determinate" style="width: 80%"></div>
+                                                </div>
+                                                <p class="right">80%</p>
+                                                <h5 class="resume">CSS</h5>
+                                                <div class="progress">
+                                                    <div class="determinate" style="width: 80%"></div>
+                                                </div>
+                                                <p class="right">80%</p>
+                                                <h5 class="resume">JavaScript</h5>
+                                                <div class="progress">
+                                                    <div class="determinate" style="width: 60%"></div>
+                                                </div>
+                                                <p class="right">60%</p>
+                                            </div>
+                                            <div class="col s12 m6 left-align">
+                                                <h5 class="resumee">PHP</h5>
+                                                <div class="progress">
+                                                    <div class="determinate" style="width: 70%"></div>
+                                                </div>
+                                                <p class="right">70%</p>
+                                                <h5 class="resume">Mechanical Engineering</h5>
+                                                <div class="progress">
+                                                    <div class="determinate" style="width: 80%"></div>
+                                                </div>
+                                                <p class="right">80%</p>
+                                                <h5 class="resume">Electrical Engineering</h5>
+                                                <div class="progress">
+                                                    <div class="determinate" style="width: 80%"></div>
+                                                </div>
+                                                <p class="right">80%</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p>Resume</p>
+                    <h4>Recent Works</h4>
+                    <p class=" red-text">*click tittle to show job desc</p>
+                    <div id="resume" class="section scrollspy">
+                        <div class="row">
+                            <div class="col s12 m6">
+                                <div class="card">
+                                    <div class="card-content">
+                                        <span class="card-title activator blue-text text-darken-3">Admin</span>
+                                        <p>PT Wahana Prestasi Logistik</p>
+                                        <hr>
+                                        <p>August 2017-December 2017</p>
+                                    </div>
+                                    <div class="card-reveal left-align">
+                                        <span class="card-title blue-text text-darken-3">Job Desc:<i
+                                                class="material-icons right">close</i></span>
+                                        <p>input data of incoming and outgoing goods, make daily, weekly and monthly
+                                            reports
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col s12 m6">
+                                <div class="card">
+                                    <div class="card-content">
+                                        <span class="card-title activator blue-text text-darken-3">Head of
+                                            Operation</span>
+                                        <p>Abeeda Zhaed Group</p>
+                                        <hr>
+                                        <p>Januari 2018-December 2018</p>
+                                    </div>
+                                    <div class="card-reveal left-align">
+                                        <span class="card-title blue-text text-darken-3">Job Desc:<i
+                                                class="material-icons right">close</i></span>
+                                        <p>Coordinate and control all warehouse activities, and make daily, weekly,
+                                            monthly and
+                                            annual reports
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col s12 m6">
+                                <div class="card">
+                                    <div class="card-content">
+                                        <span class="card-title activator blue-text text-darken-3">General
+                                            Maintenance</span>
+                                        <p>The Ritz Carlton Pacific Place</p>
+                                        <hr>
+                                        <p>May 2019-March 2020</p>
+                                    </div>
+                                    <div class="card-reveal left-align">
+                                        <span class="card-title blue-text text-darken-3">Job Desc:<i
+                                                class="material-icons right">close</i></span>
+                                        <p>Perform installation, maintenance and repair of facilities owned by hotels
+                                            and apartments
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col s12 m6">
+                                <div class="card">
+                                    <div class="card-content">
+                                        <span class="card-title activator blue-text text-darken-3">Web Developer</span>
+                                        <p>PT Future Mediatrix</p>
+                                        <hr>
+                                        <p>December 2020-Present</p>
+                                    </div>
+                                    <div class="card-reveal left-align">
+                                        <span class="card-title blue-text text-darken-3">Job Desc:<i
+                                                class="material-icons right">close</i></span>
+                                        <p>Create a site website, create a site plan, test the site, and create and are
+                                            responsible for documentation
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h4>Freelancer</h4>
+                    <div class="row">
+                        <div class="col s12 m6">
+                            <div class="card">
+                                <div class="card-content">
+                                    <span class="card-title activator blue-text text-darken-3">Driver</span>
+                                    <p>PT Grab Teknologi Indonesia</p>
+                                    <hr>
+                                    <p>April 2018-March 2020</p>
+                                </div>
+                                <div class="card-reveal left-align">
+                                    <span class="card-title blue-text text-darken-3">Job Desc:<i
+                                            class="material-icons right">close</i></span>
+                                    <p>Send people, food and goods to order
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col s12 m6">
+                            <div class="card">
+                                <div class="card-content">
+                                    <span class="card-title activator blue-text text-darken-3">Painter</span>
+                                    <p>PT. Kharisma Abdi Sejati</p>
+                                    <hr>
+                                    <p>July 2017-September 2017</p>
+                                </div>
+                                <div class="card-reveal left-align">
+                                    <span class="card-title blue-text text-darken-3">Job Desc:<i
+                                            class="material-icons right">close</i></span>
+                                    <p>Painting The Newton Ciputra World 2 apartements
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col m6 offset-m3">
+                            <div class="card">
+                                <div class="card-content">
+                                    <span class="card-title activator blue-text text-darken-3">Data Entry</span>
+                                    <p>Kementerian Koperasi dan Usaha Kecil dan Menengah Republik Indonesia</p>
+                                    <hr>
+                                    <p>November 2020-December 2020</p>
+                                </div>
+                                <div class="card-reveal left-align">
+                                    <span class="card-title blue-text text-darken-3">Job Desc:<i
+                                            class="material-icons right">close</i></span>
+                                    <p>input archival data documents
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h4>My Education And Organization</h4>
+
+                    <div class="row">
+                        <div class="col s12 m6">
+                            <h5>- Education -</h5>
+                            <div class="row">
+                                <div class="col s1">
+                                    <i class="fas fa-graduation-cap left"></i>
+                                </div>
+                                <div class="col s9 left-align">
+                                    <p class="education">SMK Ma'arif NU Bobotsari | 2017 <br> Technical Light Vehicle
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col s1">
+                                    <i class="fas fa-graduation-cap left"></i>
+                                </div>
+                                <div class="col s9 left-align">
+                                    <p class="education">Universitas Mercu Buana | Present <br> Information Systems
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col s12 m6">
+                            <h5>- Organization -</h5>
+                            <div class="row">
+                                <div class="col s1">
+                                    <i class="fas fa-sitemap left"></i>
+                                </div>
+                                <div class="col s9 left-align">
+                                    <p class="education">OSIS | 2013-2014 <br> SMP N 01 Karangmoncol
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col s1">
+                                    <i class="fas fa-sitemap left"></i>
+                                </div>
+                                <div class="col s9 left-align">
+                                    <p class="education">IRMAS | 2013-2018 <br> Desa Pekiringan
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <div id="contact-me" class="section scrollspy">
+                        <div class="row">
+                            <div class="col s12">
+                                <div class="card white">
+                                    <div class="card-content white-text left-align">
+                                        <span class="card-title">
+                                            <h5>Have a question?</h5>
+                                        </span>
+                                        <p>if you have more questions or are interested in my profile, contact me
+                                            directly
+                                            here</p>
+                                    </div>
+                                    <div class="card-action">
+                                        <a href="mailto:ivanfaturrohman04@gmail.com"
+                                            class="btn waves-effect blue darken-3"><i
+                                                class="material-icons right white-text">send</i>Contact Me</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <script src="js/app.js"></script>
+</body>
+
+</html>

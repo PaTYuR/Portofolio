@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+   }
+   
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.preloader-background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eee;
+
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.loader_bg {
+    position: fixed;
+    z-index: 999999;
+    background: #fff;
+    width: 100%;
+    height: 100%;
+}
+
+.loader {
+    border: 0 solid transparent;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: calc(50vh - 75px);
+    left: calc(50vw - 75px);
+}
+
+.loader::before,
+.loader::after {
+    content: '';
+    border: 1em solid #1565c0;
+    border-radius: 50%;
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: loader 2s linear infinite;
+    opacity: 0;
+}
+
+.loader::before {
+    animation-delay: .5s;
+}
+
+@keyframes loader {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 0;
+    }
+}
+
+h4,h5,h6,p {
+    color:#1565c0;
+}
+
+h5.resume{
+    margin-top: 50px;
+}
+
+p.information{
+    margin-left: 40px !important;
+}
+
+div.information{
+    margin: 0px;
+}
+
+.s10{
+    margin-left: 250px !important;
+}
+
+nav.top-nav {
+    box-shadow: none;
+    border-bottom: 1px solid rgba(0,0,0,0.14);
+}
+
+#nav-mobile,#mobile-demo {
+    background-color:#1565c0;
+}
+
+#side-nav,#home1 {
+    margin: 160px 0px 0px 0px;
+}
+
+.image-header {
+    margin-top: 50px;
+}
+
+i {
+    font-size: 30px;
+    color: #1565c0;
+}
+
+i.fa-phone-alt,.fa-envelope,.fa-user,.fa-medal {
+    margin: 10px 0 0 10px;
+}
+
+.fa-graduation-cap, .fa-sitemap {
+    margin-top: 20px;
+}
+
+.education {
+    margin-left: 20px;
+}
+
+img[alt="logo"]{
+    margin-top: 10px;
+}
+
+.download{
+    margin-top: 40px;
+}
