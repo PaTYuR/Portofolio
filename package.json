@@ -1,0 +1,19 @@
+{
+  "name": "portofolio",
+  "version": "1.0.0",
+  "description": "Everything about me",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaTYuR/Portofolio.git"
+  },
+  "author": "Ivan Fatur Rohman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PaTYuR/Portofolio/issues"
+  },
+  "homepage": "https://github.com/PaTYuR/Portofolio#readme"
+}
