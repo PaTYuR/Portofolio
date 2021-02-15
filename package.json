@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/PaTYuR/Portofolio#readme",
   "dependencies": {
+    "server": "^1.0.31",
     "socket.io": "^3.1.1"
   }
 }
