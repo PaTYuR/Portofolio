@@ -2,7 +2,11 @@ $(document).ready(function(){
   
     $('.sidenav').sidenav();
     
-    $('.scrollspy').scrollSpy();
+    $('.scrollspy').scrollSpy({
+      scrollOffset: 100,
+      throttle: 10
+    });
+    
   });
 
 setTimeout(function () {
